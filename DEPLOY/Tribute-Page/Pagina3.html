@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>Mi primera página</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script>
+
+    function myFunction() {
+
+        const navigationBar = document.getElementById("navigation-bar");
+        if (navigationBar.className === "navigation-bar") {
+
+            navigationBar.className += " responsive";
+        } else {
+
+            navigationBar.className = "navigation-bar";
+        }
+
+    }
+
+</script>
+
+</head>
+
+<body>
+
+<header id="header">
+
+<br/>
+    <h1> La Mente </h1> 
+<br/>
+
+</header>
+
+<aside id="navigation-bar">
+     <ul> 
+
+	<li class="menu__hamburguer-icon">
+	      <a  href="javascript:void(0);" onclick="myFunction()">
+	         <i class="lni lni-menu"></i>
+	      </a>
+        </li>
+
+ 	<li> <a class="active" href="Index.html"> Inicio </a></li>
+ 	<li> <a href="Pagina2.html">La censura</a></li>
+        <li> <a href="Pagina3.html">Los sueños</a></li>
+
+     </ul>
+
+</aside>
+
+</nav>
+
+<div id="main-content-container">
+
+    <aside id="links-sidebar">
+
+
+<br/>
+        <h3><P ALIGN=center><strong>Para Saber Más</strong></P></h3>
+
+  <ul>
+
+	<p>Para conocer acerca del interesante mundo de la Censura, da "Click" en el siguiente enlace:</p>
+            <li>Ir a <a href="Pagina2.html">La censura</a></li>
+        
+        <br/>
+
+        <p>Para regresar a conocer lo maravilloso de la Mente, da "Click" en el siguiente enlace:</p>
+            <li>Ir a <a href="Index.html">La Mente</a></li>
+
+  </ul>
+
+</aside>
+
+    <section id="main-content">
+        <img src="ImagenPrincipal.jpg" alt="SigmundFreud" class="main-content__img--full-width">
+
+<br/>
+<br/>
+
+    <div style="text-align: center;">
+
+    <h2>¡Bienvenido mi querido lector!</h2>
+    <p><strong>Mediante Sueños</strong></p>
+
+    </div>
+
+<br/>
+
+        <p>Soñar es una de las experiencias más interesantes y misteriosas en nuestra vida...¿Sabías que tu tienes alrededor de 2 a 6 sueños cada noche? Impresionante ¿No?, Lamentablemente no los recordamos.</p>
+        <p>Pero... ¿Qué son los sueños? Para Sigmund Freud, los sueños son contenidos del inconsciente que son analizables atravéz del sujeto (persona), en otras palabras... los sueños son realizaciones imaginarias de los deseos que tienes internamente.</p> 
+        <p>Podemos soñar acerca de todo, ya que nuestra imaginación no tiene los limites que nosotros tenemos como sociedad, soñamos acerca del amor, de la familia, del trabajo e incluso por muy raro que parezca podemos soñar acerca de la muerte.</p> 
+        <p>Mediante nuestros sueños el inconsciente esta tratando de revelarnos algo, así que tienes que estar atento a cada uno de tus sueños y pesadillas porque cada uno de ellos contiene mucha información acerca de nuestra propia personalidad.</p>
+        <p>Es necesario analizar algunos sueños para remover lo encubierto y conocer la verdad del mensaje, digo esto como un ejemplo de lo que podría ser una historia que aparentemente parece inofensiva pero de acuerdo a Sigmund Freud la verdad esta oculta, solo tienes que aprender a como decifrarla.</p>
+        <p>Muchas personas piensan que los sueños son premuniciones acerca de lo que puede venir en el futuro, sin embargo, nosotros no nos enfocamos en eso, nos enfocaremos en que los sueños son formados a partir de deseos o emociones que la persona esta viviendo.
+        <p>En conclusión, los sueños son manifestaciones del inconsciente, la mayoria de libros pra niños son derivados de sueños que el autor tuvo, por eso le pregunto... ¿Por qué la caperuza de capericita roja es Roja? ¿Por que no pudo ser caperucita verde o azul? Lo digo como ejemplo de una historia que aparentemente es inofensiva, sin embargo segun el psicoánalisis, esto nos esta diciendo algo.</p>        
+
+<br/>
+
+    <div style="text-align: center;">
+
+        <p><strong>Te invito a descifrarte a ti mismo, a conocer como tu mente trabaja, porque cada acción que realizas esta influenciada por nuestros pensamientos y experiencias.</strong></p>
+
+    </div>
+
+<br/>
+
+</section>
+
+    </div>
+
+<HR align="CENTER" size="70" width="100%" color="black" noshade>
+
+<footer id="footer">
+
+    <div class="footer__social footer__section">
+
+<br/>
+    <h2>Redes Sociales</h2>
+<br/>
+
+    <div class="social__networks">
+
+            <div class="social__network">
+                <span class="social__icon-container"><i class="lni lni-instagram"></i></span>
+                <span class="social__icon-handler"> <a href="https://www.instagram.com/aranza.hernandezz/"> Aranza Hernández </a> </span>
+            </div>
+
+            <div class="social__network">
+                <span class="social__icon-container"><i class="lni lni-facebook-filled"></i></span>
+                <span class="social__icon-handler"> <a href="https://www.facebook.com/profile.php?id=100030634990164"> Aranza Hernández </a> </span>
+
+    </div>
+
+ </span>
+
+        </div>
+        </div>
+
+        </div>
+        </div>
+
+    <div class="footer__contact-form footer__section">
+
+<br/>
+
+    <h2>Contacto</h2>
+
+        <div>
+
+            <form>
+              
+                <label for="contactEmail"> Correo:</label>
+                <input id="contactEmail" required type="email" placeholder="Ingresa tu correo electronico">
+
+                <label for="contactMessage"> Mensaje:</label>
+                <textarea id="contactMessage" required rows="4" cols="50"> </textarea>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="footer__more-sites footer__section">
+
+<br/>
+    <h2>Mis Páginas Web</h2>
+
+  <ul>
+	<li>Ir a <a href="Pagina2.html">La censura</a></li>
+
+<br/>
+
+	<li>Ir a <a href="Pagina3.html">Los sueños</a></li>
+
+  <ul>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
